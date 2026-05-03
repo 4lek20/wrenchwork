@@ -92,11 +92,25 @@ export default function Assessment() {
                     <div className="font-semibold text-green-600">{career.demand}</div>
                   </div>
                 </div>
-                <button className="w-full bg-blue-600 text-white py-2 rounded-lg hover:bg-blue-700 transition">
-                  Find Programs Near You
-                </button>
+                <div className="flex gap-4">
+                  <button className="flex-1 bg-blue-600 text-white py-2 rounded-lg hover:bg-blue-700 transition">
+                    Find Programs Near You
+                  </button>
+                  <button className="flex-1 border-2 border-blue-600 text-blue-600 py-2 rounded-lg hover:bg-blue-50 transition">
+                    Download Career Guide
+                  </button>
+                </div>
               </div>
             ))}
+          </div>
+          <div className="mt-8 text-center">
+            <p className="text-gray-600 mb-4">Share your results with your school counselor!</p>
+            <a
+              href="/counselors"
+              className="inline-block bg-green-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-green-700 transition"
+            >
+              For Counselors →
+            </a>
           </div>
           <div className="mt-8 text-center">
             <a
