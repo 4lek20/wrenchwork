@@ -113,7 +113,32 @@ export default function Home() {
         </div>
       </section>
 
-          {/* FAQ Section */}
+      {/* Testimonial / Stats */}
+      <section className="bg-blue-600 text-white py-16">
+        <div className="container mx-auto px-4 text-center">
+          <h3 className="text-3xl font-bold mb-12">The Numbers Don't Lie</h3>
+          <div className="grid md:grid-cols-4 gap-8 max-w-4xl mx-auto">
+            <div>
+              <div className="text-4xl font-bold mb-2">92%</div>
+              <div className="text-blue-100">Of trade grads find jobs within 6 months</div>
+            </div>
+            <div>
+              <div className="text-4xl font-bold mb-2">$0</div>
+              <div className="text-blue-100">Student debt for apprenticeships</div>
+            </div>
+            <div>
+              <div className="text-4xl font-bold mb-2">3.5M</div>
+              <div className="text-blue-100">Skilled trade jobs unfilled (2026)</div>
+            </div>
+            <div>
+              <div className="text-4xl font-bold mb-2">$75K</div>
+              <div className="text-blue-100">Average mid-career salary</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* How It Works */}
       <section className="bg-gray-50 py-16">
         <div className="container mx-auto px-4 max-w-3xl">
           <h3 className="text-3xl font-bold text-center mb-12">Frequently Asked Questions</h3>
