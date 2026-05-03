@@ -138,6 +138,36 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Success Stories */}
+      <section className="bg-gray-50 py-16">
+        <div className="container mx-auto px-4">
+          <h3 className="text-3xl font-bold text-center mb-12">Success Stories</h3>
+          <div className="grid md:grid-cols-3 gap-8 max-w-4xl mx-auto">
+            <div className="bg-white p-6 rounded-xl shadow-sm">
+              <div className="text-yellow-400 mb-4">⭐⭐⭐⭐⭐</div>
+              <p className="text-gray-600 mb-4">
+                "I was $80K in debt from college. Switched to electrical apprenticeship, now making $75K with 0 debt!"
+              </p>
+              <div className="font-semibold">- Mike R., Electrician</div>
+            </div>
+            <div className="bg-white p-6 rounded-xl shadow-sm">
+              <div className="text-yellow-400 mb-4">⭐⭐⭐⭐⭐</div>
+              <p className="text-gray-600 mb-4">
+                "Wrenchwork matched me to HVAC. 18 months later, I'm making $65K and loving it!"
+              </p>
+              <div className="font-semibold">- Sarah L., HVAC Tech</div>
+            </div>
+            <div className="bg-white p-6 rounded-xl shadow-sm">
+              <div className="text-yellow-400 mb-4">⭐⭐⭐⭐⭐</div>
+              <p className="text-gray-600 mb-4">
+                "Our school counselor used Wrenchwork. 30 students found trade paths, 0 debt!"
+              </p>
+              <div className="font-semibold">- Ms. Johnson, Counselor</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* How It Works */}
       <section className="bg-gray-50 py-16">
         <div className="container mx-auto px-4 max-w-3xl">
