@@ -60,6 +60,30 @@ export default function Home() {
         </div>
       </main>
 
+      {/* How It Works */}
+      <section className="bg-white py-16">
+        <div className="container mx-auto px-4">
+          <h3 className="text-3xl font-bold text-center mb-12">How Wrenchwork Works</h3>
+          <div className="grid md:grid-cols-3 gap-8 max-w-4xl mx-auto">
+            <div className="text-center">
+              <div className="text-5xl mb-4">1️⃣</div>
+              <h4 className="text-xl font-semibold mb-2">Take Assessment</h4>
+              <p className="text-gray-600">Answer 3 simple questions about your interests and preferences in 10 minutes.</p>
+            </div>
+            <div className="text-center">
+              <div className="text-5xl mb-4">2️⃣</div>
+              <h4 className="text-xl font-semibold mb-2">Get Matched</h4>
+              <p className="text-gray-600">Receive personalized trade career matches with salary data and training timelines.</p>
+            </div>
+            <div className="text-center">
+              <div className="text-5xl mb-4">3️⃣</div>
+              <h4 className="text-xl font-semibold mb-2">Find Programs</h4>
+              <p className="text-gray-600">Get connected to local trade schools and apprenticeship programs in your area.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Social Proof / Testimonials */}
       <section className="bg-white py-16 border-t">
         <div className="container mx-auto px-4">
