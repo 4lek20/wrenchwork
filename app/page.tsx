@@ -89,6 +89,31 @@ export default function Home() {
         </div>
       </section>
 
+          {/* FAQ Section */}
+      <section className="bg-gray-50 py-16">
+        <div className="container mx-auto px-4 max-w-3xl">
+          <h3 className="text-3xl font-bold text-center mb-12">Frequently Asked Questions</h3>
+          <div className="space-y-6">
+            <div className="bg-white p-6 rounded-xl shadow-sm">
+              <h4 className="text-lg font-semibold mb-2">How long does the assessment take?</h4>
+              <p className="text-gray-600">Just 10 minutes! Answer 3 quick questions about your interests and preferences.</p>
+            </div>
+            <div className="bg-white p-6 rounded-xl shadow-sm">
+              <h4 className="text-lg font-semibold mb-2">Is it really debt-free?</h4>
+              <p className="text-gray-600">Yes! Trade careers use apprenticeship models where you earn while you learn. No student loans needed.</p>
+            </div>
+            <div className="bg-white p-6 rounded-xl shadow-sm">
+              <h4 className="text-lg font-semibold mb-2">What's the earning potential?</h4>
+              <p className="text-gray-600">Electricians start at $60K-$90K, plumbers at $55K-$85K, and many trades offer signing bonuses.</p>
+            </div>
+            <div className="bg-white p-6 rounded-xl shadow-sm">
+              <h4 className="text-lg font-semibold mb-2">How do I find local programs?</h4>
+              <p className="text-gray-600">After your assessment, we'll show you matching trade schools and apprenticeship programs in your area.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Email Capture */}
       <section className="bg-blue-600 py-16">
         <div className="container mx-auto px-4 text-center">
