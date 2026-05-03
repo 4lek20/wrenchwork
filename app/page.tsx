@@ -60,6 +60,35 @@ export default function Home() {
         </div>
       </main>
 
+      {/* Social Proof / Testimonials */}
+      <section className="bg-white py-16 border-t">
+        <div className="container mx-auto px-4">
+          <h3 className="text-3xl font-bold text-center mb-12">Why Choose Trade Careers?</h3>
+          <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+            <div className="bg-gray-50 p-6 rounded-xl">
+              <div className="text-4xl mb-4">🎓</div>
+              <h4 className="text-xl font-semibold mb-2">Traditional Degree</h4>
+              <ul className="space-y-2 text-gray-600">
+                <li>• 4+ years of study</li>
+                <li>• $100K+ student debt</li>
+                <li>• Uncertain job market</li>
+                <li>• Delayed earning start</li>
+              </ul>
+            </div>
+            <div className="bg-blue-50 p-6 rounded-xl border-2 border-blue-200">
+              <div className="text-4xl mb-4">🔧</div>
+              <h4 className="text-xl font-semibold mb-2 text-blue-600">Trade Career</h4>
+              <ul className="space-y-2 text-gray-700">
+                <li>• 6mo-2yr training</li>
+                <li>• $0 debt (get paid to learn)</li>
+                <li>• High demand, job security</li>
+                <li>• Start earning immediately</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Email Capture */}
       <section className="bg-blue-600 py-16">
         <div className="container mx-auto px-4 text-center">
